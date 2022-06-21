@@ -1,0 +1,265 @@
+body,h1,h2,h3,h4,h5,h6,p{
+
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header style */
+.saras-header{
+
+}
+.saras-header span {
+	font-size: 30px;
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 46px;
+	width: 45px;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+	top: 2px;
+}
+.saras-header .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.sara-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+/* slider-section */
+
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+
+}
+
+.slider-caption h4{
+    margin-bottom: 35px;
+}
+.slider-caption h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+
+  .slider-caption .form-control {
+    padding: 17px 20px;
+  }
+  .slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0,0.6);
+    z-index: -1;
+}
+
+
+
+.counter-number-item .h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/* About section */
+.about-section{
+  background: #f7f9ff;
+}
+ .about-text-left{
+   margin-top: 100px;
+ }
+
+ .about-text-left .lead {
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+/* Feature section css */
+.feature-section{}
+.feature-item {
+  height: 300px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.feature-caption h2 {
+  font-weight: 500;
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.feature-caption h4{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.left-img-ses {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.right-text-ses {
+  width: 60%;
+  padding: 25px;
+}
+
+.left-img-ses img {
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: -80px;
+}
+
+/* portfolio css */
+.portfolio-item{}
+.portfolio-item a{
+  position: relative;
+  display: block;
+}
+.portfolio-item a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(98, 120, 223,.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+  opacity: 1;
+  visibility: visible;
+}
+
+.min-section-bg{
+  background-color: #f7f9ff;
+}
+/* pricing-Table */
+
+.pricing-table-section{}
+.pricing-table-section col{}
+.pricing-table-section col h1{}
+.pricing-table-section col p{}
+
+.pricing-item{
+  background: #fff;
+  padding: 50px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+  border-radius: 5px;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.pricing-item ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #777;
+}
+.pricing-item ul li span {
+  color: #6578df;
+  font-size: 25px;
+  font-weight: bold;
+  width: 40px;
+  display: inline-block;
+}
+
+
+.priceing-tiem-btn{}
+.priceing-tiem-btn a {
+  border-color: #6278df;
+  border-width: 2px;
+  color: #6278df;
+  padding: 15px 30px;
+  font-size: 22px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+
+}
+
+/* Testimonial setion */
+.user-details {
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+.author-info img {
+  width: 90px;
+  margin-right: 18px;
+}
+.author-info {
+  width: 220px;
+  margin: auto;
+}
+
+/* About Section */
+
+.about-item {
+  margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img {
+  width: 120px;
+  height: auto;
+  margin-top: -60px;
+  margin-left: 15px;
+}
+/* Contact us css */
+.contact-form-div .card{
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+  padding: 40px;
+}
+
+.footer-section{}
+.footer-title{}
+.footer-title p {
+  font-size: 23px;
+}
+.footer-title h1 {
+  font-size: 43px;
+  font-weight: 400;
+  padding: 25px;
+  width: 670px;
+  height: auto;
+  margin: auto;
+  line-height: 3.9rem;
+}
+
+.footer-btn{}
+.footer-btn-left{
+  display: inline-block;
+}
+.footer-btn-left a {
+  padding: 15px 20px;
+  font-size: 24px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.footer-btn-right{
+  display: inline-block;
+}
+.footer-btn-right a{
+  padding: 15px 20px;
+  font-size: 24px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+
+
+
